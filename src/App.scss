@@ -1,0 +1,56 @@
+.project-container {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  min-height: 50vh;
+  // background-color: 
+
+  // pointer-events: none;
+  
+}
+html,body,canvas {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 0;
+  z-index: 4;
+  pointer-events: none;
+  .front & {
+    z-index: 11;
+  }
+  
+}
+
+.in-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 20;
+  background-color: #000;
+  color: #fff;
+  font-family: "Founders Grotesk Bold";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  display: none;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 767px) {
+  .in-progress {
+    display: block;
+    pointer-events: auto;
+  }
+}

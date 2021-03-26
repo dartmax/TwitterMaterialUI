@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/TwitterMaterialUI/static/css/main.7f904051.chunk.css",
+    "main.js": "/TwitterMaterialUI/static/js/main.1d473f7f.chunk.js",
+    "main.js.map": "/TwitterMaterialUI/static/js/main.1d473f7f.chunk.js.map",
+    "runtime-main.js": "/TwitterMaterialUI/static/js/runtime-main.95177179.js",
+    "runtime-main.js.map": "/TwitterMaterialUI/static/js/runtime-main.95177179.js.map",
+    "static/js/2.2ff6778a.chunk.js": "/TwitterMaterialUI/static/js/2.2ff6778a.chunk.js",
+    "static/js/2.2ff6778a.chunk.js.map": "/TwitterMaterialUI/static/js/2.2ff6778a.chunk.js.map",
+    "index.html": "/TwitterMaterialUI/index.html",
+    "precache-manifest.ec28215fe2229eea1a772ca2208d1993.js": "/TwitterMaterialUI/precache-manifest.ec28215fe2229eea1a772ca2208d1993.js",
+    "service-worker.js": "/TwitterMaterialUI/service-worker.js",
+    "static/css/main.7f904051.chunk.css.map": "/TwitterMaterialUI/static/css/main.7f904051.chunk.css.map",
+    "static/js/2.2ff6778a.chunk.js.LICENSE.txt": "/TwitterMaterialUI/static/js/2.2ff6778a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.95177179.js",
+    "static/js/2.2ff6778a.chunk.js",
+    "static/css/main.7f904051.chunk.css",
+    "static/js/main.1d473f7f.chunk.js"
+  ]
+}

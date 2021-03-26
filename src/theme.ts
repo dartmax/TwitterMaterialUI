@@ -6,6 +6,9 @@ import { Shadows } from '@material-ui/core/styles/shadows';
 export const theme = createMuiTheme({
   typography: {
     fontFamily: [
+      'Chirp',
+      'Verdana',
+      'System',
       'system-ui',
       '-apple-system',
       'BlinkMacSystemFont',
@@ -40,6 +43,7 @@ export const theme = createMuiTheme({
         textTransform: 'none',
         fontSize: 16,
         height: 40,
+        fontWeight: 400,
       },
       textPrimary: {
         paddingLeft: 20,

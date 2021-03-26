@@ -1,9 +1,9 @@
-import {createMuiTheme} from "@material-ui/core/styles";
-import {red} from "@material-ui/core/colors";
-import {Shadows} from "@material-ui/core/styles/shadows";
+import { createMuiTheme } from '@material-ui/core/styles';
+import { red } from '@material-ui/core/colors';
+import { Shadows } from '@material-ui/core/styles/shadows';
 
 
-const theme = createMuiTheme({
+export const theme = createMuiTheme({
   typography: {
     fontFamily: [
       'system-ui',
@@ -46,7 +46,7 @@ const theme = createMuiTheme({
         paddingRight: 20,
       },
       outlinedPrimary: {
-        borderColor: 'rgb(29, 161, 243)'
+        borderColor: 'rgb(29, 161, 243)',
       },
     },
     MuiFilledInput: {
@@ -60,7 +60,7 @@ const theme = createMuiTheme({
         },
       },
       input: {
-        backgroundClip: 'rgb(245, 248, 250)'
+        backgroundClip: 'rgb(245, 248, 250)',
       },
     },
     MuiDialog: {
@@ -92,4 +92,4 @@ const theme = createMuiTheme({
   },
 });
 
-export default theme
+export default theme;
